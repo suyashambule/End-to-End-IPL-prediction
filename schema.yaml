@@ -1,0 +1,13 @@
+COLUMNS:
+  - batting_team: str
+  - bowling_team: str
+  - city: str
+  - runs_left: int
+  - balls_left: int
+  - wickets: int
+  - total_runs_x: int
+  - current_rate: float
+  - required_rate: float
+  - result: str
+
+TARGET_COLUMN: result
