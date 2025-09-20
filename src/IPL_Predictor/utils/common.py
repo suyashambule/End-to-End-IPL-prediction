@@ -1,16 +1,14 @@
 import os 
 import yaml 
-from IPL_Predictor import logger
+import logging as logger
 from pathlib import Path
 import json
 import joblib
-from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
 from box.exceptions import BoxValueError
 
-@ensure_annotations
 def read_yaml(path_to_yaml:Path)->ConfigBox:
     try:
         with open(path_to_yaml) as file:
@@ -23,32 +21,27 @@ def read_yaml(path_to_yaml:Path)->ConfigBox:
     except Exception as e:
         raise e
         
-@ensure_annotations
 def create_directories(path_to_directories:list)->None:
     for path in path_to_directories:
         os.makedirs(path,exist_ok=True)
         logger.info(f"created directory at : {path}")
 
-@ensure_annotations
 def save_json(path:Path,data:dict)->None:
     with open(path,"w") as f:
         json.dump(data,f,indent=4)
 
     logger.info(f"json file saved at : {path}")
 
-@ensure_annotations
 def load_json(path:Path)->ConfigBox:
     with open(path,"r") as f:
         content=json.load(f)
     logger.info(f"json file loaded successfully from : {path}")
     return ConfigBox(content)
 
-@ensure_annotations
 def save_bin(data: Any, path: Path):
     joblib.dump(value=data, filename=path)
     logger.info(f"binary file saved at: {path}")
 
-@ensure_annotations
 def load_bin(path: Path) -> Any:
     data = joblib.load(path)
     logger.info(f"binary file loaded from: {path}")

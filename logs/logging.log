@@ -1,0 +1,187 @@
+[2025-09-20 16:10:48,389: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:10:48,392: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:10:48,395: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-20 16:10:48,396: INFO: common: created directory at : artifacts]
+[2025-09-20 16:13:44,544: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:13:44,548: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:13:44,550: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-20 16:13:44,550: INFO: common: created directory at : artifacts]
+[2025-09-20 16:14:58,275: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:14:58,277: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:14:58,278: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-20 16:14:58,279: INFO: common: created directory at : artifacts]
+[2025-09-20 16:15:16,916: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:15:16,917: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:15:16,919: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-20 16:15:16,919: INFO: common: created directory at : artifacts]
+[2025-09-20 16:15:27,214: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:15:27,217: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:15:27,219: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-20 16:15:27,220: INFO: common: created directory at : artifacts]
+[2025-09-20 16:15:33,812: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:15:33,813: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:15:33,814: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-20 16:15:33,815: INFO: common: created directory at : artifacts]
+[2025-09-20 16:15:38,056: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:15:38,059: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:15:38,061: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-20 16:15:38,062: INFO: common: created directory at : artifacts]
+[2025-09-20 16:15:38,063: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:16:28,438: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:16:28,440: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:16:28,441: INFO: common: created directory at : artifacts]
+[2025-09-20 16:16:28,441: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:18:41,735: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:18:41,738: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:18:41,738: INFO: common: created directory at : artifacts]
+[2025-09-20 16:18:41,738: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:22:08,606: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:22:08,608: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:22:08,608: INFO: common: created directory at : artifacts]
+[2025-09-20 16:22:08,608: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:24:20,937: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:24:20,940: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:24:20,940: INFO: common: created directory at : artifacts]
+[2025-09-20 16:24:20,941: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:25:41,622: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:25:41,625: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:25:41,625: INFO: common: created directory at : artifacts]
+[2025-09-20 16:25:41,626: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:26:24,476: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:26:24,478: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:26:24,479: INFO: common: created directory at : artifacts]
+[2025-09-20 16:26:24,480: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:28:53,634: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:28:53,637: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:28:53,638: INFO: common: created directory at : artifacts]
+[2025-09-20 16:28:53,639: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:28:57,333: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:28:57,334: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:28:57,334: INFO: common: created directory at : artifacts]
+[2025-09-20 16:28:57,334: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:29:22,870: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:29:22,872: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:29:22,872: INFO: common: created directory at : artifacts]
+[2025-09-20 16:29:22,873: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:30:05,412: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:30:05,414: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:30:05,414: INFO: common: created directory at : artifacts]
+[2025-09-20 16:30:05,415: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:31:25,989: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:31:25,991: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:31:25,991: INFO: common: created directory at : artifacts]
+[2025-09-20 16:31:25,992: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:31:58,813: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:31:58,815: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:31:58,815: INFO: common: created directory at : artifacts]
+[2025-09-20 16:33:32,298: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:33:32,300: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:33:32,301: INFO: common: created directory at : artifacts]
+[2025-09-20 16:33:32,301: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:35:47,581: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:35:47,584: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:35:47,585: INFO: common: created directory at : artifacts]
+[2025-09-20 16:35:47,586: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:37:13,438: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:37:13,440: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:37:13,442: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-20 16:37:13,443: INFO: common: created directory at : artifacts]
+[2025-09-20 16:37:13,443: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:37:24,317: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:37:24,321: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:37:24,323: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-20 16:37:24,324: INFO: common: created directory at : artifacts]
+[2025-09-20 16:38:29,556: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:38:29,558: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:38:29,558: INFO: common: created directory at : artifacts]
+[2025-09-20 16:38:49,332: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:38:49,336: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:38:49,337: INFO: common: created directory at : artifacts]
+[2025-09-20 16:38:49,339: ERROR: 1487661753: Error occurred: isinstance() arg 2 must be a type, a tuple of types, or a union]
+[2025-09-20 16:39:07,020: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:39:07,023: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:39:07,024: INFO: common: created directory at : artifacts]
+[2025-09-20 16:43:02,880: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:43:02,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:43:02,882: INFO: common: created directory at : artifacts]
+[2025-09-20 16:43:11,297: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:43:11,301: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:43:11,303: INFO: common: created directory at : artifacts]
+[2025-09-20 16:43:50,134: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:43:50,136: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:43:50,137: INFO: common: created directory at : artifacts]
+[2025-09-20 16:45:55,331: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-09-20 16:45:55,524: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:45:55,524: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:45:55,524: INFO: common: created directory at : artifacts]
+[2025-09-20 16:45:55,524: INFO: common: created directory at : artifacts/data_ingestion]
+[2025-09-20 16:45:56,540: INFO: <string>: artifacts/data_ingestion/archive%20(1).zip download! with following info: 
+Date: Sat, 20 Sep 2025 11:15:56 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+x-repository-download: git clone https://github.com/suyashambule/dates.git
+x-raw-download: https://raw.githubusercontent.com/suyashambule/dates/846507f684312e025a00be17b8870f2559616337/archive%20(1).zip
+ETag: W/"a395c44f23e1b21e89c6798150e70038"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Server: github.com
+Accept-Ranges: bytes
+Set-Cookie: _gh_sess=mW4u53KSF9yvLWRL7eDYGLRMh5%2B3eD50dfzl5%2BRYO%2F6mM86eqoduDqrcnsuprWP7n1ghdhKxwXQmhNyt%2FadTW%2Ft87SabJxlLEb%2BLKm1er%2B8MSiayMJvV%2BkEr2Yp1E3BTFHuElCLd0%2F6djCgkhMkU%2BxjSzKDYzF6bZ5s1x2n6JKBkTCc0hVuEgeK8BPSKhjxu7pf0WCfta0HZ%2F36geKnlrVgS2XAy9Fmbvg5INYPhy8BKXT48RxfpBAVOodJitGgprKSpyLKHGg67yc8W8PkHog%3D%3D--5Uaa4YC4QkCKJK35--rsB9m%2FvhKJNFqq23wss7xw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.978386897.1758366955; Path=/; Domain=github.com; Expires=Sun, 20 Sep 2026 11:15:55 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 20 Sep 2026 11:15:55 GMT; HttpOnly; Secure; SameSite=Lax
+X-GitHub-Request-Id: E39E:1C1E80:572276:73F304:68CE8CEB
+connection: close
+Transfer-Encoding: chunked
+
+]
+[2025-09-20 16:46:08,893: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-09-20 16:46:09,063: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:46:09,063: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:46:09,063: INFO: common: created directory at : artifacts]
+[2025-09-20 16:46:09,063: INFO: common: created directory at : artifacts/data_ingestion]
+[2025-09-20 16:46:09,063: INFO: <string>: File already exists]
+[2025-09-20 16:51:45,785: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-09-20 16:51:45,969: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:51:45,970: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:51:45,970: INFO: common: created directory at : artifacts]
+[2025-09-20 16:51:45,970: INFO: common: created directory at : artifacts/data_ingestion]
+[2025-09-20 16:51:46,902: INFO: <string>: artifacts/data_ingestion/archive%20(1).zip download! with following info: 
+Connection: close
+Content-Length: 1910090
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "d5c743809ce5622dc15f522c611fd5a4176cfa8edbd94aa4a9ccdcacbc9ecb15"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B348:1C2530:C06D1:2087C8:68CE8E45
+Accept-Ranges: bytes
+Date: Sat, 20 Sep 2025 11:21:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210095-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1758367306.009456,VS0,VE370
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7aec69371e66fc564a1aa02f5f4e58942156caf6
+Expires: Sat, 20 Sep 2025 11:26:46 GMT
+Source-Age: 0
+
+]
+[2025-09-20 16:54:17,353: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:54:17,357: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:54:17,358: INFO: common: created directory at : artifacts]
+[2025-09-20 16:55:22,729: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-20 16:55:22,731: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 16:55:22,732: INFO: common: created directory at : artifacts]
+[2025-09-20 16:55:22,733: INFO: common: created directory at : artifacts/data_ingestion]
+[2025-09-20 16:55:22,734: INFO: 251335794: File already exists]
