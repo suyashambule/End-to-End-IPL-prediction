@@ -5,3 +5,11 @@ data_ingestion:
   source_URL: https://raw.githubusercontent.com/suyashambule/dates/846507f684312e025a00be17b8870f2559616337/archive%20(1).zip
   local_data_file: artifacts/data_ingestion/archive%20(1).zip
   unzip_dir: artifacts/data_ingestion
+
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/matches.csv
+  unzip_data_dir_1: artifacts/data_ingestion/deliveries.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
