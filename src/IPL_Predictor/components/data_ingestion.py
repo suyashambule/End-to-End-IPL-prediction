@@ -24,11 +24,6 @@ class DataIngestion:
             logger.info(f"File already exists")
 
     def extract_zip_file(self):
-        """
-        zip_file_path: str
-        Extracts the zip file into the data directory
-        Function returns None
-        """
         unzip_path = self.config.unzip_dir
         os.makedirs(unzip_path, exist_ok=True)
         with ZipFile(self.config.local_data_file, 'r') as zip_ref:

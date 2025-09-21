@@ -2,14 +2,19 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://raw.githubusercontent.com/suyashambule/dates/846507f684312e025a00be17b8870f2559616337/archive%20(1).zip
-  local_data_file: artifacts/data_ingestion/archive%20(1).zip
+  source_URL: https://raw.githubusercontent.com/suyashambule/dates/3084b0c3eaf0a6fd0249961750bbec5444e5cee5/IPL_Prediction%20file.zip
   unzip_dir: artifacts/data_ingestion
-
-
+  local_data_file: artifacts/data_ingestion/IPL_Prediction%20file.zip
 
 data_validation:
   root_dir: artifacts/data_validation
-  unzip_data_dir: artifacts/data_ingestion/matches.csv
-  unzip_data_dir_1: artifacts/data_ingestion/deliveries.csv
+  unzip_data_dir: artifacts/data_ingestion/IPL_Prediction file/output.csv
   STATUS_FILE: artifacts/data_validation/status.txt
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  matches_file: artifacts/data_ingestion/matches.csv
+  deliveries_file: artifacts/data_ingestion/deliveries.csv
+  transformed_data_file: artifacts/data_transformation/transformed_data.csv
+  features_file: artifacts/data_transformation/features.csv
+  target_file: artifacts/data_transformation/target.csv

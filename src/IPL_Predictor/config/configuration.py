@@ -1,7 +1,7 @@
 from src.IPL_Predictor.constants import *
 from src.IPL_Predictor.utils.common import read_yaml, create_directories
 
-from src.IPL_Predictor.entity.config_entity import (DataIngestionConfig,)
+from src.IPL_Predictor.entity.config_entity import (DataIngestionConfig, DataValidationConfig, DataTransformationConfig)
 
 class ConfigurationManager_DataIngestion:
     def __init__(self,
@@ -43,3 +43,19 @@ class ConfigurationManager_DataIngestion:
         )
 
         return data_validation_config
+
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+        config = self.config.data_transformation
+        
+        create_directories([config.root_dir])
+        
+        data_transformation_config = DataTransformationConfig(
+            root_dir=config.root_dir,
+            matches_file=config.matches_file,
+            deliveries_file=config.deliveries_file,
+            transformed_data_file=config.transformed_data_file,
+            features_file=config.features_file,
+            target_file=config.target_file
+        )
+        
+        return data_transformation_config
