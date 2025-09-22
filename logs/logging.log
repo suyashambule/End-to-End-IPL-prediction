@@ -440,3 +440,5 @@ Source-Age: 0
 [2025-09-21 18:13:35,426: INFO: common: yaml file: schema.yaml loaded successfully]
 [2025-09-21 18:13:35,427: INFO: common: created directory at : artifacts]
 [2025-09-21 18:13:35,427: ERROR: 353886353: Error occurred during data validation: "'ConfigBox' object has no attribute 'data_spilter'"]
+[2025-09-21 18:29:26,102: ERROR: 1510746215: Error occurred during data validation: name 'ConfigurationManager' is not defined]
+[2025-09-21 18:30:23,505: ERROR: 1510746215: Error occurred during data validation: name 'ConfigurationManager' is not defined]
