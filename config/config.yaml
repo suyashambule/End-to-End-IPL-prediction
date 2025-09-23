@@ -11,9 +11,10 @@ data_validation:
   unzip_data_dir: artifacts/data_ingestion/IPL_Prediction file/output.csv
   STATUS_FILE: artifacts/data_validation/status.txt
 
-data_splitting:
+data_splitter:
   root_dir: artifacts/data_splitting
   train_data: artifacts/data_splitting/train.csv
   test_data: artifacts/data_splitting/test.csv
+  unzip_data_dir: artifacts/data_ingestion/IPL_Prediction file/output.csv
   split_ratio: 0.2
   random_state: 42

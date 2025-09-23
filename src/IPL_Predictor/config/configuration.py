@@ -1,7 +1,7 @@
 from src.IPL_Predictor.constants import *
 from src.IPL_Predictor.utils.common import read_yaml, create_directories
 
-from src.IPL_Predictor.entity.config_entity import (DataIngestionConfig, DataValidationConfig, DataTransformationConfig)
+from src.IPL_Predictor.entity.config_entity import (DataIngestionConfig, DataValidationConfig,  DataSplitterConfig)
 
 class ConfigurationManager_DataIngestion:
     def __init__(self,
@@ -42,3 +42,19 @@ class ConfigurationManager_DataIngestion:
         )
 
         return data_validation_config
+    
+    def get_data_split_config(self) -> DataSplitterConfig:
+        config = self.config.data_splitter
+    
+        create_directories([config.root_dir])
+
+        data_splitter_config = DataSplitterConfig(
+            root_dir=config.root_dir,
+            train_data=config.train_data,
+            test_data=config.test_data,
+            split_ratio=config.split_ratio,
+            random_state=config.random_state,
+            unzip_data_dir=config.unzip_data_dir
+        )
+
+        return data_splitter_config

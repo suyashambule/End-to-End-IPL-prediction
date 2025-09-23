@@ -15,3 +15,12 @@ class DataValidationConfig:
     STATUS_FILE:str
     unzip_data_dir:Path
     all_schema:dict
+    
+@dataclass
+class DataSplitterConfig:  
+    root_dir: Path
+    train_data: Path
+    test_data: Path
+    split_ratio: float
+    random_state: int
+    unzip_data_dir: Path 

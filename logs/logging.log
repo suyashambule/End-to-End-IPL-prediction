@@ -442,3 +442,135 @@ Source-Age: 0
 [2025-09-21 18:13:35,427: ERROR: 353886353: Error occurred during data validation: "'ConfigBox' object has no attribute 'data_spilter'"]
 [2025-09-21 18:29:26,102: ERROR: 1510746215: Error occurred during data validation: name 'ConfigurationManager' is not defined]
 [2025-09-21 18:30:23,505: ERROR: 1510746215: Error occurred during data validation: name 'ConfigurationManager' is not defined]
+[2025-09-23 22:55:41,513: ERROR: 1510746215: Error occurred during data validation: name 'ConfigurationManager' is not defined]
+[2025-09-23 22:57:27,654: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-23 22:57:27,658: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 22:57:27,660: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-23 22:57:27,661: INFO: common: created directory at : artifacts]
+[2025-09-23 22:57:40,568: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-23 22:57:40,570: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 22:57:40,571: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-23 22:57:40,571: INFO: common: created directory at : artifacts]
+[2025-09-23 22:57:40,572: ERROR: 1634914283: 'ConfigurationManager' object has no attribute 'get_data_splitter_config']
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_12037/1634914283.py", line 3, in <module>
+    data_splitting_config = config.get_data_splitter_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_splitter_config'
+[2025-09-23 23:22:51,008: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-23 23:22:51,010: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 23:22:51,014: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-23 23:22:51,015: INFO: common: created directory at : artifacts]
+[2025-09-23 23:23:07,443: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-23 23:23:07,444: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 23:23:07,446: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-23 23:23:07,447: INFO: common: created directory at : artifacts]
+[2025-09-23 23:24:33,851: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-23 23:24:33,853: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 23:24:33,854: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-23 23:24:33,855: INFO: common: created directory at : artifacts]
+[2025-09-23 23:24:54,203: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-23 23:24:54,205: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 23:24:54,206: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-23 23:24:54,207: INFO: common: created directory at : artifacts]
+[2025-09-23 23:24:54,207: ERROR: 80002268: 'ConfigurationManager' object has no attribute 'get_data_spilt_config']
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_12037/80002268.py", line 3, in <module>
+    data_transformation_config = config.get_data_spilt_config()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_spilt_config'. Did you mean: 'get_data_split_config'?
+[2025-09-23 23:26:59,009: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-23 23:26:59,011: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 23:26:59,013: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-23 23:26:59,014: INFO: common: created directory at : artifacts]
+[2025-09-23 23:26:59,014: ERROR: 460756391: "'ConfigBox' object has no attribute 'data_splitter'"]
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_splitter'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_splitter'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_splitter'. Did you mean: 'data_splitting'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_splitter'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'data_splitter'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_splitter'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_splitter'. Did you mean: 'data_splitting'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_12037/460756391.py", line 3, in <module>
+    data_transformation_config = config.get_data_split_config()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_12037/1832769260.py", line 16, in get_data_split_config
+    config = self.config.data_splitter
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_splitter'". Did you mean: 'data_splitting'?
+[2025-09-23 23:29:16,081: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-23 23:29:16,083: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 23:29:16,084: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-23 23:29:16,085: INFO: common: created directory at : artifacts]
+[2025-09-23 23:29:16,086: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-23 23:29:16,089: ERROR: 536138960: [Errno 2] No such file or directory: 'artifacts/data_ingestion/matches.csv']
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_12037/536138960.py", line 5, in <module>
+    data_splitter.split_data()
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_12037/1595899252.py", line 6, in split_data
+    df=pd.read_csv(self.config.unzip_data_dir)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suyash/Desktop/End to End/venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suyash/Desktop/End to End/venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suyash/Desktop/End to End/venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suyash/Desktop/End to End/venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Users/suyash/Desktop/End to End/venv/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/matches.csv'
+[2025-09-23 23:29:44,474: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-23 23:29:44,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-23 23:29:44,478: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-23 23:29:44,478: INFO: common: created directory at : artifacts]
+[2025-09-23 23:29:44,478: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-23 23:29:45,322: INFO: 1595899252: Train and Test data saved in artifacts/data_splitting]
+[2025-09-23 23:29:45,323: INFO: 1595899252: Train data shape: (200264, 14) and Test data shape: (50067, 14)]
