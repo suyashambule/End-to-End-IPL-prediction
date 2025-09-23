@@ -811,3 +811,158 @@ box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'cat_columns'"
 [2025-09-24 00:46:54,928: INFO: common: created directory at : artifacts/data_splitting]
 [2025-09-24 00:46:55,764: INFO: 1632313070: Train and Test data saved in artifacts/data_splitting]
 [2025-09-24 00:46:55,765: INFO: 1632313070: Train data shape: (200264, 14) and Test data shape: (50067, 14)]
+[2025-09-24 00:48:45,533: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:48:45,534: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:48:45,535: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:48:45,536: INFO: common: created directory at : artifacts]
+[2025-09-24 00:48:45,537: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:50:00,288: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:50:00,289: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:50:00,291: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:50:00,291: INFO: common: created directory at : artifacts]
+[2025-09-24 00:50:00,291: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:51:06,338: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:51:06,339: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:51:06,341: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:51:06,342: INFO: common: created directory at : artifacts]
+[2025-09-24 00:51:06,342: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:51:26,977: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:51:26,979: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:51:26,982: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:51:26,982: INFO: common: created directory at : artifacts]
+[2025-09-24 00:51:26,983: INFO: common: created directory at : artifacts/data_ingestion]
+[2025-09-24 00:51:28,678: INFO: 251335794: artifacts/data_ingestion/IPL_Prediction%20file.zip download! with following info: 
+Connection: close
+Content-Length: 2840372
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0957b239deaca226251c7967a5ae532ee13f49760907051a97fd462a43b0cd0c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CF25:36247:1CACED:401CD3:68D2F336
+Accept-Ranges: bytes
+Date: Tue, 23 Sep 2025 19:21:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210064-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1758655287.064055,VS0,VE402
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 93ff06801cebb05769ad250404803360fc8a0c48
+Expires: Tue, 23 Sep 2025 19:26:27 GMT
+Source-Age: 0
+
+]
+[2025-09-24 00:51:39,977: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:51:39,980: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:51:39,983: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:51:39,984: INFO: common: created directory at : artifacts]
+[2025-09-24 00:51:39,985: INFO: common: created directory at : artifacts/data_validation]
+[2025-09-24 00:52:00,559: ERROR: 536138960: [Errno 2] No such file or directory: 'config/config.yaml']
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_17905/536138960.py", line 2, in <module>
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_17905/1577624703.py", line 8, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suyash/Desktop/End to End/src/IPL_Predictor/utils/common.py", line 22, in read_yaml
+    raise e
+  File "/Users/suyash/Desktop/End to End/src/IPL_Predictor/utils/common.py", line 14, in read_yaml
+    with open(path_to_yaml) as file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/config.yaml'
+[2025-09-24 00:52:43,090: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:52:43,091: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:52:43,093: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:52:43,094: INFO: common: created directory at : artifacts]
+[2025-09-24 00:52:43,094: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 00:52:43,906: INFO: 1632313070: Train and Test data saved in artifacts/data_splitting]
+[2025-09-24 00:52:43,906: INFO: 1632313070: Train data shape: (200264, 14) and Test data shape: (50067, 14)]
+[2025-09-24 00:53:42,545: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:53:42,547: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:53:42,549: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:53:42,549: INFO: common: created directory at : artifacts]
+[2025-09-24 00:53:42,550: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 00:53:42,686: INFO: 1201428724: Read data with shape: (250331, 14)]
+[2025-09-24 00:53:42,687: ERROR: 1201428724: Error in data splitting: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse']
+[2025-09-24 00:53:42,687: ERROR: 536138960: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse']
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_18505/536138960.py", line 5, in <module>
+    data_splitter.split_data()
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_18505/1201428724.py", line 43, in split_data
+    raise e
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_18505/1201428724.py", line 15, in split_data
+    ("cat", OneHotEncoder(drop='first', sparse=False), self.config.categorical_columns)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+[2025-09-24 00:54:55,340: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:54:55,342: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:54:55,344: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:54:55,344: INFO: common: created directory at : artifacts]
+[2025-09-24 00:54:55,345: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 00:54:55,506: INFO: 3386661097: Read data with shape: (250331, 14)]
+[2025-09-24 00:54:55,506: ERROR: 3386661097: Error in data splitting: 'Data_Splitting' object has no attribute 'schema']
+[2025-09-24 00:54:55,507: ERROR: 536138960: 'Data_Splitting' object has no attribute 'schema']
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_18505/536138960.py", line 5, in <module>
+    data_splitter.split_data()
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_18505/3386661097.py", line 55, in split_data
+    raise e
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_18505/3386661097.py", line 25, in split_data
+    stratify=df[self.schema.TARGET_COLUMN] if self.schema.TARGET_COLUMN in df.columns else None
+                                              ^^^^^^^^^^^
+AttributeError: 'Data_Splitting' object has no attribute 'schema'
+[2025-09-24 00:55:41,099: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:55:41,100: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:55:41,102: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:55:41,103: INFO: common: created directory at : artifacts]
+[2025-09-24 00:55:41,103: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 00:55:41,247: INFO: 336190981: Read data with shape: (250331, 14)]
+[2025-09-24 00:55:41,260: INFO: 336190981: Data split completed]
+[2025-09-24 00:55:41,261: INFO: 336190981: Train shape: (200264, 14), Test shape: (50067, 14)]
+[2025-09-24 00:55:41,934: INFO: 336190981: Data saved to artifacts/data_splitting]
+[2025-09-24 00:57:17,100: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:57:17,102: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:57:17,104: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:57:17,104: INFO: common: created directory at : artifacts]
+[2025-09-24 00:57:17,105: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 00:57:17,258: INFO: 860908167: Read data with shape: (250331, 14)]
+[2025-09-24 00:57:17,270: INFO: 860908167: Data split completed]
+[2025-09-24 00:57:17,270: INFO: 860908167: Train shape: (200264, 14), Test shape: (50067, 14)]
+[2025-09-24 00:57:21,802: INFO: 860908167: Preprocessed data saved to artifacts/data_splitting]
+[2025-09-24 00:57:21,802: INFO: 860908167: Processed train shape: (200264, 70), Processed test shape: (50067, 70)]
+[2025-09-24 00:57:46,159: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:57:46,161: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:57:46,162: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:57:46,163: INFO: common: created directory at : artifacts]
+[2025-09-24 00:57:46,163: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 01:01:25,778: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 01:01:25,779: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 01:01:25,781: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 01:01:25,782: INFO: common: created directory at : artifacts]
+[2025-09-24 01:01:25,782: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 01:01:26,328: INFO: 3552706665: Available columns in training data: ['target_runs', 'current_score', 'wickets', 'crr', 'rrr', 'batter_total_runs', 'batter_strikerate', 'non_striker_runs', 'non_striker_strikerate', 'city_Ahmedabad', 'city_Bangalore', 'city_Bengaluru', 'city_Bloemfontein', 'city_Cape Town', 'city_Centurion', 'city_Chandigarh', 'city_Chennai', 'city_Cuttack', 'city_Delhi', 'city_Dharamsala', 'city_Dubai', 'city_Durban', 'city_East London', 'city_Guwahati', 'city_Hyderabad', 'city_Indore', 'city_Jaipur', 'city_Johannesburg', 'city_Kanpur', 'city_Kimberley', 'city_Kolkata', 'city_Lucknow', 'city_Mohali', 'city_Mumbai', 'city_Nagpur', 'city_Navi Mumbai', 'city_Port Elizabeth', 'city_Pune', 'city_Raipur', 'city_Rajkot', 'city_Ranchi', 'city_Sharjah', 'city_Visakhapatnam', 'match_type_Elimination Final', 'match_type_Eliminator', 'match_type_Final', 'match_type_League', 'match_type_Qualifier 1', 'match_type_Qualifier 2', 'match_type_Semi Final', 'batting_team_Delhi Capitals', 'batting_team_Gujarat Titans', 'batting_team_Kolkata Knight Riders', 'batting_team_Lucknow Super Giants', 'batting_team_Mumbai Indians', 'batting_team_Punjab Kings', 'batting_team_Rajasthan Royals', 'batting_team_Rising Pune Supergiants', 'batting_team_Royal Challengers Bengaluru', 'batting_team_Sunrisers Hyderabad', 'bowling_team_Delhi Capitals', 'bowling_team_Gujarat Titans', 'bowling_team_Kolkata Knight Riders', 'bowling_team_Lucknow Super Giants', 'bowling_team_Mumbai Indians', 'bowling_team_Punjab Kings', 'bowling_team_Rajasthan Royals', 'bowling_team_Rising Pune Supergiants', 'bowling_team_Royal Challengers Bengaluru', 'bowling_team_Sunrisers Hyderabad']]
+[2025-09-24 01:01:26,328: INFO: 3552706665: Target column from config: batting_team_win]
+[2025-09-24 01:01:26,329: INFO: 3552706665: Target column 'batting_team_win' not found.]
+[2025-09-24 01:01:26,330: INFO: 3552706665: Available columns: ['target_runs', 'current_score', 'wickets', 'crr', 'rrr', 'batter_total_runs', 'batter_strikerate', 'non_striker_runs', 'non_striker_strikerate', 'city_Ahmedabad', 'city_Bangalore', 'city_Bengaluru', 'city_Bloemfontein', 'city_Cape Town', 'city_Centurion', 'city_Chandigarh', 'city_Chennai', 'city_Cuttack', 'city_Delhi', 'city_Dharamsala', 'city_Dubai', 'city_Durban', 'city_East London', 'city_Guwahati', 'city_Hyderabad', 'city_Indore', 'city_Jaipur', 'city_Johannesburg', 'city_Kanpur', 'city_Kimberley', 'city_Kolkata', 'city_Lucknow', 'city_Mohali', 'city_Mumbai', 'city_Nagpur', 'city_Navi Mumbai', 'city_Port Elizabeth', 'city_Pune', 'city_Raipur', 'city_Rajkot', 'city_Ranchi', 'city_Sharjah', 'city_Visakhapatnam', 'match_type_Elimination Final', 'match_type_Eliminator', 'match_type_Final', 'match_type_League', 'match_type_Qualifier 1', 'match_type_Qualifier 2', 'match_type_Semi Final', 'batting_team_Delhi Capitals', 'batting_team_Gujarat Titans', 'batting_team_Kolkata Knight Riders', 'batting_team_Lucknow Super Giants', 'batting_team_Mumbai Indians', 'batting_team_Punjab Kings', 'batting_team_Rajasthan Royals', 'batting_team_Rising Pune Supergiants', 'batting_team_Royal Challengers Bengaluru', 'batting_team_Sunrisers Hyderabad', 'bowling_team_Delhi Capitals', 'bowling_team_Gujarat Titans', 'bowling_team_Kolkata Knight Riders', 'bowling_team_Lucknow Super Giants', 'bowling_team_Mumbai Indians', 'bowling_team_Punjab Kings', 'bowling_team_Rajasthan Royals', 'bowling_team_Rising Pune Supergiants', 'bowling_team_Royal Challengers Bengaluru', 'bowling_team_Sunrisers Hyderabad']]
+[2025-09-24 01:02:24,215: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 01:02:24,216: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 01:02:24,217: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 01:02:24,218: INFO: common: created directory at : artifacts]
+[2025-09-24 01:02:24,218: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 01:02:24,376: INFO: 1287289255: Read data with shape: (250331, 14)]
+[2025-09-24 01:02:29,570: INFO: 1287289255: Preprocessed data saved to artifacts/data_splitting]
+[2025-09-24 01:02:29,572: INFO: 1287289255: Processed train shape: (200264, 71), Processed test shape: (50067, 71)]
+[2025-09-24 01:02:59,285: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 01:02:59,288: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 01:02:59,289: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 01:02:59,290: INFO: common: created directory at : artifacts]
+[2025-09-24 01:02:59,290: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 01:02:59,831: INFO: 3552706665: Available columns in training data: ['target_runs', 'current_score', 'wickets', 'crr', 'rrr', 'batter_total_runs', 'batter_strikerate', 'non_striker_runs', 'non_striker_strikerate', 'city_Ahmedabad', 'city_Bangalore', 'city_Bengaluru', 'city_Bloemfontein', 'city_Cape Town', 'city_Centurion', 'city_Chandigarh', 'city_Chennai', 'city_Cuttack', 'city_Delhi', 'city_Dharamsala', 'city_Dubai', 'city_Durban', 'city_East London', 'city_Guwahati', 'city_Hyderabad', 'city_Indore', 'city_Jaipur', 'city_Johannesburg', 'city_Kanpur', 'city_Kimberley', 'city_Kolkata', 'city_Lucknow', 'city_Mohali', 'city_Mumbai', 'city_Nagpur', 'city_Navi Mumbai', 'city_Port Elizabeth', 'city_Pune', 'city_Raipur', 'city_Rajkot', 'city_Ranchi', 'city_Sharjah', 'city_Visakhapatnam', 'match_type_Elimination Final', 'match_type_Eliminator', 'match_type_Final', 'match_type_League', 'match_type_Qualifier 1', 'match_type_Qualifier 2', 'match_type_Semi Final', 'batting_team_Delhi Capitals', 'batting_team_Gujarat Titans', 'batting_team_Kolkata Knight Riders', 'batting_team_Lucknow Super Giants', 'batting_team_Mumbai Indians', 'batting_team_Punjab Kings', 'batting_team_Rajasthan Royals', 'batting_team_Rising Pune Supergiants', 'batting_team_Royal Challengers Bengaluru', 'batting_team_Sunrisers Hyderabad', 'bowling_team_Delhi Capitals', 'bowling_team_Gujarat Titans', 'bowling_team_Kolkata Knight Riders', 'bowling_team_Lucknow Super Giants', 'bowling_team_Mumbai Indians', 'bowling_team_Punjab Kings', 'bowling_team_Rajasthan Royals', 'bowling_team_Rising Pune Supergiants', 'bowling_team_Royal Challengers Bengaluru', 'bowling_team_Sunrisers Hyderabad', 'batting_team_win']]
+[2025-09-24 01:02:59,831: INFO: 3552706665: Target column from config: batting_team_win]
