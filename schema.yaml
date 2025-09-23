@@ -15,3 +15,20 @@ COLUMNS:
   batting_team_win: bool
 
 TARGET_COLUMN: batting_team_win
+
+Categorial_COLUMNS:
+  - city
+  - match_type
+  - batting_team
+  - bowling_team
+
+Numerical_COLUMNS:
+  - target_runs
+  - current_score
+  - wickets
+  - crr
+  - rrr
+  - batter_total_runs
+  - batter_strikerate
+  - non_striker_runs
+  - non_striker_strikerate

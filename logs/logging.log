@@ -574,3 +574,240 @@ FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestio
 [2025-09-23 23:29:44,478: INFO: common: created directory at : artifacts/data_splitting]
 [2025-09-23 23:29:45,322: INFO: 1595899252: Train and Test data saved in artifacts/data_splitting]
 [2025-09-23 23:29:45,323: INFO: 1595899252: Train data shape: (200264, 14) and Test data shape: (50067, 14)]
+[2025-09-24 00:13:57,040: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:13:57,043: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:13:57,046: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:13:57,047: INFO: common: created directory at : artifacts]
+[2025-09-24 00:14:51,356: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:14:51,357: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:14:51,358: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:14:51,359: INFO: common: created directory at : artifacts]
+[2025-09-24 00:15:54,646: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:15:54,648: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:15:54,649: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:15:54,650: INFO: common: created directory at : artifacts]
+[2025-09-24 00:16:46,279: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:16:46,281: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:16:46,282: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:16:46,283: INFO: common: created directory at : artifacts]
+[2025-09-24 00:16:46,283: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:17:29,126: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:17:29,127: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:17:29,129: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:17:29,129: INFO: common: created directory at : artifacts]
+[2025-09-24 00:17:29,130: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:18:36,838: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:18:36,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:18:36,841: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:18:36,841: INFO: common: created directory at : artifacts]
+[2025-09-24 00:18:36,841: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:19:10,242: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:19:10,243: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:19:10,245: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:19:10,245: INFO: common: created directory at : artifacts]
+[2025-09-24 00:19:10,246: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:19:23,620: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:19:23,621: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:19:23,622: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:19:23,623: INFO: common: created directory at : artifacts]
+[2025-09-24 00:19:23,624: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:19:33,396: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:19:33,397: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:19:33,399: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:19:33,399: INFO: common: created directory at : artifacts]
+[2025-09-24 00:19:33,400: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:19:50,682: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:19:50,683: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:19:50,685: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:19:50,685: INFO: common: created directory at : artifacts]
+[2025-09-24 00:19:50,686: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:20:34,648: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:20:34,650: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:20:34,652: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:20:34,653: INFO: common: created directory at : artifacts]
+[2025-09-24 00:20:34,654: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:21:58,374: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:21:58,375: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:21:58,377: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:21:58,377: INFO: common: created directory at : artifacts]
+[2025-09-24 00:21:58,377: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:22:19,913: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:22:19,914: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:22:19,916: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:22:19,916: INFO: common: created directory at : artifacts]
+[2025-09-24 00:22:19,917: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:22:40,408: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:22:40,410: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:22:40,411: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:22:40,412: INFO: common: created directory at : artifacts]
+[2025-09-24 00:22:40,412: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:24:19,197: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:24:19,199: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:24:19,200: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:24:19,201: INFO: common: created directory at : artifacts]
+[2025-09-24 00:24:19,201: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:24:51,597: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:24:51,598: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:24:51,600: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:24:51,601: INFO: common: created directory at : artifacts]
+[2025-09-24 00:24:51,601: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:25:42,934: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:25:42,936: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:25:42,937: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:25:42,938: INFO: common: created directory at : artifacts]
+[2025-09-24 00:25:42,938: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:26:20,096: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:26:20,098: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:26:20,100: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:26:20,101: INFO: common: created directory at : artifacts]
+[2025-09-24 00:26:20,101: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 00:43:16,093: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:43:16,095: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:43:16,098: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:43:16,099: INFO: common: created directory at : artifacts]
+[2025-09-24 00:43:16,100: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 00:43:16,101: ERROR: 536138960: "'Cat_columns'"]
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'Cat_columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_17905/536138960.py", line 3, in <module>
+    data_split_config = config.get_data_split_config()  # Fixed variable name
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_17905/1232505248.py", line 27, in get_data_split_config
+    Cat_columns=self.schema["Cat_columns"],
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'Cat_columns'"
+[2025-09-24 00:44:24,816: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:44:24,818: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:44:24,820: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:44:24,821: INFO: common: created directory at : artifacts]
+[2025-09-24 00:44:24,821: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 00:44:24,821: ERROR: 536138960: "'ConfigBox' object has no attribute 'cat_columns'"]
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'Cat_columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'Cat_columns'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'Cat_columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'Cat_columns'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'cat_columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'cat_columns'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'cat_columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_17905/536138960.py", line 3, in <module>
+    data_split_config = config.get_data_split_config()  # Fixed variable name
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_17905/1070473942.py", line 26, in get_data_split_config
+    Cat_columns=self.schema.Cat_columns,  # Access as attribute
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'cat_columns'"
+[2025-09-24 00:45:00,762: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:45:00,763: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:45:00,764: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:45:00,765: INFO: common: created directory at : artifacts]
+[2025-09-24 00:45:00,765: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 00:45:00,766: ERROR: 536138960: "'ConfigBox' object has no attribute 'cat_columns'"]
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'Cat_columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'Cat_columns'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'Cat_columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'Cat_columns'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'cat_columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'cat_columns'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'cat_columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_17905/536138960.py", line 3, in <module>
+    data_split_config = config.get_data_split_config()  # Fixed variable name
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/4h/1kffnwts1h70fpj60f1h6bg80000gn/T/ipykernel_17905/1070473942.py", line 26, in get_data_split_config
+    Cat_columns=self.schema.Cat_columns,  # Access as attribute
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'cat_columns'"
+[2025-09-24 00:46:54,925: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 00:46:54,926: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 00:46:54,928: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 00:46:54,928: INFO: common: created directory at : artifacts]
+[2025-09-24 00:46:54,928: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 00:46:55,764: INFO: 1632313070: Train and Test data saved in artifacts/data_splitting]
+[2025-09-24 00:46:55,765: INFO: 1632313070: Train data shape: (200264, 14) and Test data shape: (50067, 14)]
