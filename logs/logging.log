@@ -966,3 +966,65 @@ AttributeError: 'Data_Splitting' object has no attribute 'schema'
 [2025-09-24 01:02:59,290: INFO: common: created directory at : artifacts/model_trainer]
 [2025-09-24 01:02:59,831: INFO: 3552706665: Available columns in training data: ['target_runs', 'current_score', 'wickets', 'crr', 'rrr', 'batter_total_runs', 'batter_strikerate', 'non_striker_runs', 'non_striker_strikerate', 'city_Ahmedabad', 'city_Bangalore', 'city_Bengaluru', 'city_Bloemfontein', 'city_Cape Town', 'city_Centurion', 'city_Chandigarh', 'city_Chennai', 'city_Cuttack', 'city_Delhi', 'city_Dharamsala', 'city_Dubai', 'city_Durban', 'city_East London', 'city_Guwahati', 'city_Hyderabad', 'city_Indore', 'city_Jaipur', 'city_Johannesburg', 'city_Kanpur', 'city_Kimberley', 'city_Kolkata', 'city_Lucknow', 'city_Mohali', 'city_Mumbai', 'city_Nagpur', 'city_Navi Mumbai', 'city_Port Elizabeth', 'city_Pune', 'city_Raipur', 'city_Rajkot', 'city_Ranchi', 'city_Sharjah', 'city_Visakhapatnam', 'match_type_Elimination Final', 'match_type_Eliminator', 'match_type_Final', 'match_type_League', 'match_type_Qualifier 1', 'match_type_Qualifier 2', 'match_type_Semi Final', 'batting_team_Delhi Capitals', 'batting_team_Gujarat Titans', 'batting_team_Kolkata Knight Riders', 'batting_team_Lucknow Super Giants', 'batting_team_Mumbai Indians', 'batting_team_Punjab Kings', 'batting_team_Rajasthan Royals', 'batting_team_Rising Pune Supergiants', 'batting_team_Royal Challengers Bengaluru', 'batting_team_Sunrisers Hyderabad', 'bowling_team_Delhi Capitals', 'bowling_team_Gujarat Titans', 'bowling_team_Kolkata Knight Riders', 'bowling_team_Lucknow Super Giants', 'bowling_team_Mumbai Indians', 'bowling_team_Punjab Kings', 'bowling_team_Rajasthan Royals', 'bowling_team_Rising Pune Supergiants', 'bowling_team_Royal Challengers Bengaluru', 'bowling_team_Sunrisers Hyderabad', 'batting_team_win']]
 [2025-09-24 01:02:59,831: INFO: 3552706665: Target column from config: batting_team_win]
+[2025-09-24 12:55:26,879: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 12:55:26,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 12:55:26,884: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 12:55:26,887: INFO: common: created directory at : artifacts]
+[2025-09-24 12:55:26,887: INFO: common: created directory at : artifacts/data_ingestion]
+[2025-09-24 12:55:28,889: INFO: 251335794: artifacts/data_ingestion/IPL_Prediction%20file.zip download! with following info: 
+Connection: close
+Content-Length: 2840372
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0957b239deaca226251c7967a5ae532ee13f49760907051a97fd462a43b0cd0c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8612:2B87C7:220ACB:4F3D2B:68D39CE5
+Accept-Ranges: bytes
+Date: Wed, 24 Sep 2025 07:25:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210048-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1758698727.946290,VS0,VE400
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 60c7cba45776d08f3fce883447fe3b505f60b7ff
+Expires: Wed, 24 Sep 2025 07:30:27 GMT
+Source-Age: 0
+
+]
+[2025-09-24 12:55:41,210: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 12:55:41,212: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 12:55:41,215: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 12:55:41,215: INFO: common: created directory at : artifacts]
+[2025-09-24 12:55:41,216: INFO: common: created directory at : artifacts/data_validation]
+[2025-09-24 12:56:04,873: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 12:56:04,875: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 12:56:04,877: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 12:56:04,878: INFO: common: created directory at : artifacts]
+[2025-09-24 12:56:04,878: INFO: common: created directory at : artifacts/data_splitting]
+[2025-09-24 12:56:05,019: INFO: 1287289255: Read data with shape: (250331, 14)]
+[2025-09-24 12:56:09,624: INFO: 1287289255: Preprocessed data saved to artifacts/data_splitting]
+[2025-09-24 12:56:09,624: INFO: 1287289255: Processed train shape: (200264, 71), Processed test shape: (50067, 71)]
+[2025-09-24 12:56:23,918: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 12:56:23,920: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 12:56:23,921: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 12:56:23,921: INFO: common: created directory at : artifacts]
+[2025-09-24 12:56:23,921: INFO: common: created directory at : artifacts/model_trainer]
+[2025-09-24 12:56:24,415: INFO: 3552706665: Available columns in training data: ['target_runs', 'current_score', 'wickets', 'crr', 'rrr', 'batter_total_runs', 'batter_strikerate', 'non_striker_runs', 'non_striker_strikerate', 'city_Ahmedabad', 'city_Bangalore', 'city_Bengaluru', 'city_Bloemfontein', 'city_Cape Town', 'city_Centurion', 'city_Chandigarh', 'city_Chennai', 'city_Cuttack', 'city_Delhi', 'city_Dharamsala', 'city_Dubai', 'city_Durban', 'city_East London', 'city_Guwahati', 'city_Hyderabad', 'city_Indore', 'city_Jaipur', 'city_Johannesburg', 'city_Kanpur', 'city_Kimberley', 'city_Kolkata', 'city_Lucknow', 'city_Mohali', 'city_Mumbai', 'city_Nagpur', 'city_Navi Mumbai', 'city_Port Elizabeth', 'city_Pune', 'city_Raipur', 'city_Rajkot', 'city_Ranchi', 'city_Sharjah', 'city_Visakhapatnam', 'match_type_Elimination Final', 'match_type_Eliminator', 'match_type_Final', 'match_type_League', 'match_type_Qualifier 1', 'match_type_Qualifier 2', 'match_type_Semi Final', 'batting_team_Delhi Capitals', 'batting_team_Gujarat Titans', 'batting_team_Kolkata Knight Riders', 'batting_team_Lucknow Super Giants', 'batting_team_Mumbai Indians', 'batting_team_Punjab Kings', 'batting_team_Rajasthan Royals', 'batting_team_Rising Pune Supergiants', 'batting_team_Royal Challengers Bengaluru', 'batting_team_Sunrisers Hyderabad', 'bowling_team_Delhi Capitals', 'bowling_team_Gujarat Titans', 'bowling_team_Kolkata Knight Riders', 'bowling_team_Lucknow Super Giants', 'bowling_team_Mumbai Indians', 'bowling_team_Punjab Kings', 'bowling_team_Rajasthan Royals', 'bowling_team_Rising Pune Supergiants', 'bowling_team_Royal Challengers Bengaluru', 'bowling_team_Sunrisers Hyderabad', 'batting_team_win']]
+[2025-09-24 12:56:24,416: INFO: 3552706665: Target column from config: batting_team_win]
+[2025-09-24 13:09:51,051: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 13:09:51,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 13:09:51,054: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 13:09:51,055: INFO: common: created directory at : artifacts]
+[2025-09-24 13:09:51,055: INFO: common: created directory at : artifacts/model_evaluation]
+[2025-09-24 13:11:33,463: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-09-24 13:11:33,465: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-24 13:11:33,467: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-24 13:11:33,468: INFO: common: created directory at : artifacts]
+[2025-09-24 13:11:33,468: INFO: common: created directory at : artifacts/model_evaluation]

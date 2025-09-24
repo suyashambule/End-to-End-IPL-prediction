@@ -24,4 +24,9 @@ model_trainer:
   train_data_path: artifacts/data_splitting/train.csv
   test_data_path: artifacts/data_splitting/test.csv
   model_name: model.pkl
-  
+
+model_evaluation:
+  root_dir: artifacts/model_evaluation
+  test_data_path: artifacts/data_splitting/test.csv
+  model_path: artifacts/model_trainer/model.pkl
+  metric_file_path: artifacts/model_evaluation/metrics.json
