@@ -73,30 +73,6 @@ These results indicate a well-balanced performance across all metrics, showing t
 
 ---
 
-### 🔍 Visual Insights
-
-#### 📌 Feature Importance
-
-<p align="center">
-  <img src="assets/feature_importance.png" alt="Feature Importance" width="600"/>
-</p>
-
-#### 📌 Confusion Matrix
-
-<p align="center">
-  <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
-</p>
-
-#### 📌 ROC Curve
-
-<p align="center">
-  <img src="assets/roc_curve.png" alt="ROC Curve" width="500"/>
-</p>
-
-_(Add actual plots after running experiments)_
-
----
-
 ## 🌍 Deployment
 
 ### ⚡ Run Locally
